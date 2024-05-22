@@ -9,6 +9,7 @@
 
 <title>Meu amigo cão - Petshop</title>
 
+<a href="estilos/principal.css" rel="stylesheet" type="text/css">
 <style>
     h2{
         background-color: #c0262c;
@@ -21,6 +22,87 @@
         width: 470px;
         padding: 61px 400px 61px 100px;
     }
+    figcaption {
+        background-color: #c0262c;
+        padding: 7px 0;
+        color: #ffffff;
+        font-size: 1.5em;
+    }
+    figure{
+        border: #c0262c solid thin;
+        border-radius: 35px 35px 0 0;
+        padding: 20px 0 0;
+        text-align: center;
+    }
+    ul li{
+        list-style-position: none;
+        list-style-image: url(multimidia/ossinho.png);
+        list-style-position: inside;
+        margin: 30px 0;
+    }
+    dt{
+        color: #fff;
+        background-color: #c0262c;
+        padding: 7px;
+    }
+    dd{
+        border: thin #c0262c solid;
+        border-radius: 0 0 25px 25px;
+        margin-top: -3px;
+        margin-bottom: 30px;
+        padding: 20px 20px 0;
+    }
+    ol {
+        list-style-type: none;
+        white-space: pre;
+        line-height: .9em;
+        /*definir a variavel de contagem*/
+        counter-reset: contador;
+    }
+    ol li:before {
+        color: #999999;
+        /*incrementar uma variavel em 1*/
+        counter-increment: contador;
+        /*usar o numero do contador como conteudo*/
+        content: "questão " counter (contador) "\00BB"
+    }
+    ul li a {
+        text-decoration: none;
+        color: #c0262c;
+        font-weight: bold;
+        padding: 7px;
+    }
+    ul li a:houver{
+        text-decoration: underline;
+    }
+    dd a [target="_blank"] {
+        text-decoration: none;
+        color: #c0262c;
+        font-weight: bold;
+        padding: 7px;
+        display: inline-block;
+    }
+    dd a [target="_blank"] :houver{
+        text-decoration: underline;
+    } 
+    dd a [href="#top"] {
+        text-decoration: none;
+        color: #c0262c;
+        font-weight: bold;
+        padding: 7px 0 7px 30px;
+        background: url(multimidia/seta-voltar-hover.png) no-repeat left center;
+    }
+    dd a [href="#top"] :houver {
+        text-decoration: underline;
+        background: url(multimidia/seta-voltar-hover.png) no-repeat left center;
+   
+    }
+
+
+
+
+
+
 
 </style>
 
