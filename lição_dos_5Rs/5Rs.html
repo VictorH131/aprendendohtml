@@ -9,7 +9,7 @@
             background-color: #E6E7BA;
         }
         header{
-            background-image: url('fundo1.png');
+            background-image: url(multimidia/fundo1.png);
             background-size: cover;
             text-align: center;
             height: 90px;
@@ -77,6 +77,28 @@
         hr{
             border-color: green;
         }
+        footer{
+            /*background-image: url(multimidia/fundo2.png);
+            background-size: cover;
+            caso queira a mesma imagen do header
+            */
+            background: rgb(244,235,110);
+            background: radial-gradient(circle, rgba(244,235,110,1) 0%, rgba(29,140,6,1) 58%)
+            height: 90px
+
+        }
+        .container {
+            display: flex;
+            margin: 30px;
+            margin-left: 700px;
+            
+        }
+        .row {
+            margin-top: -10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+ 
     </style>
 </head>
 <body>
@@ -161,15 +183,24 @@
 
 
 
-
-
-
-
-
-
-
-
     
     </main>
+
+    <footer>
+       <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <JK> © 2024 Victor e Felipe </JK>
+                </div>
+                <div class="direitos">
+                    <JK>(19) 12345-6789</JK>
+                </div>
+                <div class="link">
+                    <a href="">Sobre Nós</a> <j>/</j>  
+                    <a href="">Termos De Uso</a>  
+                </div>
+        </div>
+    </footer>
 </body>
 </html>
