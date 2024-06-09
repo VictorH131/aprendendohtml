@@ -1,18 +1,11 @@
 <?php
 
-    include_once "inicio.php";
+    include_once "includes/inicio.php";
 
-    echo   '
+    include_once "includes/nav.php";
+    
 
-    <nav>
-        <div class="linha2">
-            <div class="pags"> <a href="index.html" class="link"> Home </a> </div>
-
-
-        </div>
-
-    </nav>
-
+    echo '
 
     <main>
         <h1 class="tito">Como preservar o meio ambiente utilizando os 5R´S:</h1>
@@ -88,30 +81,12 @@
             Repare itens quebrados em vez de descartá-los, e aprenda habilidades básicas de conserto para prolongar sua vida útil.
             
             Seguindo essas práticas, você estará fazendo sua parte para reduzir o desperdício e proteger o meio ambiente.</p> <br>
+    </main>';
 
-        
-
-
+    include_once "includes/footer.php";
     
-    </main>
-
-    <footer>
-       <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <JK> © 2024 Victor e Felipe </JK>
-                </div>
-                <div class="direitos">
-                    <JK>(19) 12345-6789</JK>
-                </div>
-                <div class="link">
-                    <a href="construcao.html">Sobre Nós</a> <j>/</j>  
-                    <a href="">Termos De Uso</a>  
-                </div>
-        </div>
-    </footer>
+echo '
 </body>
-</html>'
+</html>' ;
 
 ?>
