@@ -11,8 +11,8 @@
                     <JK>(19) 12345-6789</JK>
                 </div>
                 <div class="link3">
-                    <a href="../construcao.php">Sobre Nós</a> <j>/</j>  
-                    <a href="../construcao.php">Termos De Uso</a>  
+                    <a href="includes/construcao.php">Sobre Nós</a> <j>/</j>  
+                    <a href="includes/construcao.php">Termos De Uso</a>  
                 </div>
         </div>
     </footer>

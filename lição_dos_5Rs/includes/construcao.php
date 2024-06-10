@@ -26,7 +26,7 @@
   
     <h1>Lamentamos o Site esta em Construção</h1>
     <h3>tente voltar Depois, E tenha um bom Dia!!! </h3>
-    <img src="multimidia/error.png" alt="imagen de error">
+    <img src="../multimidia/error.png" alt="imagen de error">
 
     <div>
         

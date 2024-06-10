@@ -5,7 +5,8 @@
     include_once "includes/nav.php";
     
 
-    echo '
+    echo ' 
+    
 
     <main>
         <h1 class="tito">Como preservar o meio ambiente utilizando os 5R´S:</h1>
